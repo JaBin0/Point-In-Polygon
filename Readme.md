@@ -1,4 +1,4 @@
-# Point in Polygon
+# Point in Polygon v1.0
 ## Description
 Point in Polygon is a simple application,</br>
 which allows to define polygon and external points</br>
@@ -29,9 +29,13 @@ Computation of the point position is done during it's creation or after polygon 
 Points cannot be removed
 
 ## Bugs
-
-There is bug in the computation, when point has exact same y value as one of the lines. 
+### Point y is equal y of one of the node
+There is bug in the computation, when point has exact same y value as one of the lines.
+Therfore when calculating this point belong to the two lines so from algorithm point of view 
+halfline is crossing two lines not one. (Because this app is only exercise I do not intend to fix that) 
 
 <img src="./notes/bug_01.png" width="640" height="400">
+
+
 
 
